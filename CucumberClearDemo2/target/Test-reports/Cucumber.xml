@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.206" tests="2" skipped="0" failures="2" errors="0">
+<testcase classname="Login to HRM application using valid and invalid Credentials" name="Login with Valid credentials" time="0.024">
+<failure/>
+<system-out><![CDATA[
+Given User is on HRMLogin Webpage...........................................undefined
+When User provides valid credentials........................................skipped
+Then User should be able to login successfully and see homePage.............skipped
+]]></system-out>
+</testcase>
+<testcase classname="Login to HRM application using valid and invalid Credentials" name="Login with InValid credentials" time="0.002">
+<failure/>
+<system-out><![CDATA[
+Given User is on HRMLogin Webpage...........................................undefined
+When User provides valid credentials........................................skipped
+Then User able to see unsuccessfull with error message......................skipped
+]]></system-out>
+</testcase>
+</testsuite>
